@@ -47,4 +47,4 @@ New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled Tru
 ```
 
 # อ้างอิง
-- (https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)[Install OpenSSH using PowerShell]
+- [Install OpenSSH using PowerShell](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
