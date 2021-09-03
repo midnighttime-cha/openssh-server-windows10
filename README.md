@@ -46,11 +46,5 @@ Get-NetFirewallRule -Name *ssh*
 New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
 ```
 
-
-
-
-
-
-
-
-
+# อ้างอิง
+- (https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)[Install OpenSSH using PowerShell]
