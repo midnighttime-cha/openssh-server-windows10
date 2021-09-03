@@ -41,7 +41,7 @@ Set-Service -Name sshd -StartupType 'Automatic'
 ```cmd
 Get-NetFirewallRule -Name *ssh*
 ```
-คำสั่ง add `OpenSSH-Server-In-TCP` ให้ทำการ. Enable
+คำสั่ง Enable `OpenSSH-Server-In-TCP`
 ```cmd
 New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
 ```
