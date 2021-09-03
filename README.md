@@ -4,7 +4,7 @@
 ```cmd
 Get-WindowsCapability -Online | ? Name -like 'OpenSSH*'
 ```
-Output
+---Output---
 ```
 Name  : OpenSSH.Client~~~~0.0.1.0
 State : NotPresent
@@ -21,7 +21,7 @@ Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 # Install the OpenSSH Server
 Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
 ```
-Output
+---Output---
 ```
 Path          :
 Online        : True
